@@ -1,5 +1,5 @@
 # pm2 error alert
-This will help you to get started to create typescript npm package
+This will alert pm2 errors
 ```
 tsc
 node src/alert.js

@@ -6,7 +6,7 @@ interface ErrFormat {
     rev: string;
     name: string;
     pm_id: number;
-  }
+  };
 }
 pm2.launchBus(function(err, bus) {
   bus.on('log:err', function(e: ErrFormat) {

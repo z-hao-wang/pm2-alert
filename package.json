@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/z-hao-wang/npm-package-boilerplate.git"
+    "url": "https://github.com/z-hao-wang/pm2-alert.git"
   },
   "dependencies": {
     "lodash": "^4.17.11",
