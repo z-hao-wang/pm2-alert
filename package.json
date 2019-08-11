@@ -1,0 +1,33 @@
+{
+  "name": "samplename",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc",
+    "tsc:watch": "tsc -w",
+    "prettier": "node ./node_modules/prettier/bin-prettier.js --parser=typescript --single-quote --trailing-comma=all --write --print-width=120 'src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hao Wang",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/z-hao-wang/npm-package-boilerplate.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "pm2": "^3.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "@types/lodash": "^4.14.123",
+    "prettier": "^1.16.4"
+  }
+}
