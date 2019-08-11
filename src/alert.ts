@@ -43,6 +43,7 @@ pm2.launchBus(function(err, bus) {
           `${new Date().toISOString()} ${pName} error count ${globalErrorCache[pName].length}`,
         );
         lastAlerted[pName] = Date.now();
+        console.log(`alert sent`);
       }
     }
   });
