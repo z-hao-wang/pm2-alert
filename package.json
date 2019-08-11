@@ -22,7 +22,7 @@
     "url": "https://github.com/z-hao-wang/pm2-alert.git"
   },
   "dependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "4.17.14",
     "pm2": "^3.5.1"
   },
   "devDependencies": {
