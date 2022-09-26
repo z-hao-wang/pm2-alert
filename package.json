@@ -24,7 +24,7 @@
   "dependencies": {
     "@types/request": "^2.48.2",
     "lodash": "4.17.14",
-    "pm2": "^3.5.1",
+    "pm2": "^5.2.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
